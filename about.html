@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ETF Lab 的作業目的、資料取用及維護方式。">
+  <meta name="theme-color" content="#0a121e">
+  <title>關於網站｜ETF Lab</title>
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script type="module" src="./assets/common.js"></script>
+</head>
+<body data-page="about">
+  <a class="skip-link" href="#main">跳至主內容</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./index.html" aria-label="ETF Lab 首頁"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>ETF<span class="brand-light"> Lab</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" hidden>選單 <span aria-hidden="true">☰</span></button>
+      <nav id="main-nav" class="site-nav" aria-label="主導覽">
+        <a href="./index.html">首頁</a>
+        <a href="./learn.html">學習中心</a>
+        <a href="./compare.html">ETF 比較</a>
+        <a href="./calculator.html">投資試算</a>
+        <a href="./about.html" aria-current="page">關於</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+<div class="wrap inner-page reading-layout">
+  <header class="page-heading"><p class="eyebrow">ABOUT</p><h1>關於 ETF Lab</h1><p>給臺灣投資新手的靜態學習網站，也是一個能持續擴充的課堂專案。</p></header>
+  <div class="prose about-content">
+    <section class="panel about-panel"><h2>這個網站能做什麼</h2><p>用繁體中文自學 ETF 的核心概念、並排比較商品的投資方法，並透過試算理解時間、投入與報酬的關係。</p><div class="actions"><a class="button secondary" href="./learn.html">瀏覽教材 →</a></div></section>
+    <section class="panel about-panel"><h2>資料來源與更新</h2><p>教材優先參考臺灣證券交易所、發行投信與指數編製機構，通用觀念輔以美國 SEC 的投資教育資料。文章與商品比較皆附來源和查證日期，商品細節請查閱發行人的最新公告。</p><ul><li><a href="https://www.twse.com.tw/zh/ETFortune/index">臺灣證券交易所 ETF e 添富</a></li><li><a href="https://www.investor.gov/">SEC Investor.gov</a></li></ul></section>
+    <section class="panel about-panel"><h2>專案與擴充方式</h2><p>教材內容和顯示模板分開。新增一篇教材時，依照 AGENTS.md 填寫內文 JSON 與文章索引，學習中心和搜尋即可載入它。</p><div class="actions"><a class="button secondary" href="./AGENTS.md">AGENTS.md</a><a class="button secondary" href="./README.md">README.md</a><a class="button secondary" id="repository-link" href="https://github.com/" hidden>GitHub 原始碼 ↗</a></div></section>
+    <section class="callout"><h2>教育用途與隱私</h2><p>本站提供一般投資教育資訊。ETF 資產價格和配息會變動，可能發生本金損失。搜尋與試算輸入在瀏覽器內處理。</p></section>
+  </div>
+</div>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner">
+    <a class="brand" href="./index.html" aria-label="ETF Lab 首頁"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>ETF<span class="brand-light"> Lab</span></span></a>
+    <p>ETF 投資教育專案 · 投資有風險</p>
+    <a href="./about.html">關於與資料來源 →</a>
+  </div></footer>
+</body>
+</html>

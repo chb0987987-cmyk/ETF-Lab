@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="以固定報酬率試算複利與定期定額，查看各年資產與累積投入。">
+  <meta name="theme-color" content="#0a121e">
+  <title>投資試算｜ETF Lab</title>
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script type="module" src="./assets/common.js"></script>
+  <script type="module" src="./assets/calculator.js"></script>
+</head>
+<body data-page="calculator">
+  <a class="skip-link" href="#main">跳至主內容</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./index.html" aria-label="ETF Lab 首頁"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>ETF<span class="brand-light"> Lab</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" hidden>選單 <span aria-hidden="true">☰</span></button>
+      <nav id="main-nav" class="site-nav" aria-label="主導覽">
+        <a href="./index.html">首頁</a>
+        <a href="./learn.html">學習中心</a>
+        <a href="./compare.html">ETF 比較</a>
+        <a href="./calculator.html" aria-current="page">投資試算</a>
+        <a href="./about.html">關於</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+<div class="wrap inner-page">
+  <header class="page-heading"><p class="eyebrow">CALCULATE</p><h1>複利與定期定額試算</h1><p>設定投入金額與報酬假設，觀察期末資產與累積投入的差距。</p></header>
+  <div class="calculator-layout">
+    <form id="calculator" class="panel calc-form" novalidate aria-describedby="assumptions">
+      <h2>投入條件</h2>
+      <div class="field"><label for="principal">初始本金 <span>NT$</span></label><input type="number" id="principal" name="principal" min="0" max="100000000" step="1" value="50000" required aria-describedby="principal-error"><small id="principal-error" class="field-error"></small></div>
+      <div class="field"><label for="monthly">每月投入 <span>NT$</span></label><input type="number" id="monthly" name="monthly" min="0" max="10000000" step="1" value="3000" required aria-describedby="monthly-error"><small id="monthly-error" class="field-error"></small></div>
+      <div class="field"><label for="years">投資期間 <span>年</span></label><input type="number" id="years" name="years" min="1" max="60" step="1" value="20" required aria-describedby="years-error"><small id="years-error" class="field-error"></small></div>
+      <div class="field"><label for="annual">假設年化報酬率 <span>%</span></label><input type="number" id="annual" name="annual" min="-99" max="50" step="0.01" value="5" required aria-describedby="annual-error"><small id="annual-error" class="field-error"></small></div>
+      <div class="actions"><button class="button primary" type="submit">開始試算</button><button class="button secondary" type="reset">還原</button></div>
+    </form>
+    <section class="panel calc-results" aria-labelledby="estimate-heading">
+      <h2 id="estimate-heading">試算結果</h2>
+      <p class="result-status" id="calc-status" role="status"></p>
+      <div id="calc-output" hidden>
+        <dl class="stat-grid" id="stats"></dl>
+        <canvas id="growth-chart" class="growth-chart" aria-hidden="true"></canvas>
+        <p class="chart-legend"><span><i class="key asset"></i>期末資產</span><span><i class="key invested"></i>累積投入</span></p>
+        <details><summary>查看各年年末數值</summary><div class="table-scroll annual-table" role="region" tabindex="0" aria-label="年度資產明細"><table><thead><tr><th scope="col">年度</th><th scope="col">累積投入</th><th scope="col">期末資產</th></tr></thead><tbody id="annual-values"></tbody></table></div></details>
+      </div>
+    </section>
+  </div>
+  <section class="callout" id="assumptions">
+    <h2>試算假設與風險</h2>
+    <p>採固定有效年化報酬率，換算為等效月報酬率後按月複利。每月先計算報酬，月底再投入。0% 時資產等於累積投入。</p>
+    <p>模型以總報酬情境計算，收益留在帳上滾存。未另計交易與基金費用、稅、通膨及匯率，也未模擬市場波動或報酬順序。實際資產可能低於累積投入。輸入報酬率僅表示假設。</p>
+  </section>
+</div>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner">
+    <a class="brand" href="./index.html" aria-label="ETF Lab 首頁"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>ETF<span class="brand-light"> Lab</span></span></a>
+    <p>ETF 投資教育專案 · 投資有風險</p>
+    <a href="./about.html">關於與資料來源 →</a>
+  </div></footer>
+</body>
+</html>
