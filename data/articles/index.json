@@ -1,0 +1,145 @@
+{
+  "categories": [
+    {
+      "id": "basics",
+      "label": "ETF 基礎觀念"
+    },
+    {
+      "id": "types",
+      "label": "ETF 類型"
+    },
+    {
+      "id": "strategy",
+      "label": "投資策略"
+    },
+    {
+      "id": "risk",
+      "label": "風險與費用"
+    }
+  ],
+  "featured": [
+    "etf-basics-001",
+    "etf-risk-001",
+    "etf-basics-002"
+  ],
+  "articles": [
+    {
+      "id": "etf-basics-001",
+      "slug": "what-is-etf",
+      "title": "什麼是 ETF？",
+      "category": "basics",
+      "difficulty": "beginner",
+      "minutes": 4,
+      "summary": "用一籃子資產理解 ETF，並分清楚買 ETF 和買單一股票的差別。",
+      "tags": [
+        "指數股票型基金",
+        "交易所交易基金",
+        "股票",
+        "入門",
+        "一籃子"
+      ]
+    },
+    {
+      "id": "etf-types-001",
+      "slug": "etf-types",
+      "title": "市值型、高股息與債券 ETF",
+      "category": "types",
+      "difficulty": "beginner",
+      "minutes": 5,
+      "summary": "從底層資產和選股規則分辨三類 ETF，找出每一類容易忽略的風險。",
+      "tags": [
+        "市值加權",
+        "高股息",
+        "債券",
+        "利率",
+        "指數",
+        "類型"
+      ]
+    },
+    {
+      "id": "etf-risk-001",
+      "slug": "price-and-nav",
+      "title": "市價、淨值與折溢價",
+      "category": "risk",
+      "difficulty": "beginner",
+      "minutes": 4,
+      "summary": "分清楚 ETF 的成交價格與每單位淨值，學會解讀折價和溢價。",
+      "tags": [
+        "NAV",
+        "交易價格",
+        "折價",
+        "溢價",
+        "價差",
+        "淨資產"
+      ]
+    },
+    {
+      "id": "etf-risk-002",
+      "slug": "fees-and-tracking",
+      "title": "ETF 費用與追蹤差距",
+      "category": "risk",
+      "difficulty": "intermediate",
+      "minutes": 5,
+      "summary": "區分基金內扣、買賣成本、追蹤差距與追蹤誤差。",
+      "tags": [
+        "經理費",
+        "管理費",
+        "保管費",
+        "費用率",
+        "追蹤誤差",
+        "成本"
+      ]
+    },
+    {
+      "id": "etf-strategy-001",
+      "slug": "dollar-cost-averaging",
+      "title": "什麼是定期定額？",
+      "category": "strategy",
+      "difficulty": "beginner",
+      "minutes": 4,
+      "summary": "用固定金額、不同買進價格的例子理解平均成本與市場風險。",
+      "tags": [
+        "DCA",
+        "定期投入",
+        "平均成本",
+        "每月投入",
+        "定期買入"
+      ]
+    },
+    {
+      "id": "etf-strategy-002",
+      "slug": "compound-growth",
+      "title": "複利與長期投入",
+      "category": "strategy",
+      "difficulty": "beginner",
+      "minutes": 4,
+      "summary": "理解收益如何滾入下一期，以及投資試算中的固定報酬率代表什麼。",
+      "tags": [
+        "複利",
+        "年化",
+        "月報酬",
+        "再投入",
+        "算式",
+        "試算"
+      ]
+    },
+    {
+      "id": "etf-basics-002",
+      "slug": "distributions-and-total-return",
+      "title": "ETF 配息與總報酬",
+      "category": "basics",
+      "difficulty": "beginner",
+      "minutes": 4,
+      "summary": "把現金分配和價格變動分開，再用同一口徑看含息總報酬。",
+      "tags": [
+        "收益分配",
+        "配息率",
+        "殖利率",
+        "總報酬",
+        "含息",
+        "再投入",
+        "除息"
+      ]
+    }
+  ]
+}

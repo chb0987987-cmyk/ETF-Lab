@@ -1,0 +1,56 @@
+{
+  "id": "etf-strategy-001",
+  "slug": "dollar-cost-averaging",
+  "takeaways": [
+    "定期定額是在固定時間投入固定金額。",
+    "價格高時買得較少，價格低時買得較多。",
+    "分批進場仍有市場風險，也可能落後一次投入。"
+  ],
+  "sections": [
+    {
+      "heading": "把買入決策變成一項規則",
+      "paragraphs": [
+        "例如每月固定投入同額，可把長期計畫拆成一系列交易。同樣金額在價格較低時能取得較多單位，在價格較高時則較少。[1]",
+        "平均買入成本可用總投入除以總取得單位數。實際下單還需考量可買入單位、券商規則及每筆費用。"
+      ]
+    },
+    {
+      "heading": "定期投入和一次投入差在哪裡？",
+      "paragraphs": [
+        "有一筆現成的資金時，分批投入會讓部分資金較晚接觸市場。如果這段期間市場一路上漲，晚投入可能減少參與漲幅。若市場在買入期間下跌，不同批次的買入成本則會受到不同影響。",
+        "若資金是每月才新增，定期定額可把投入時間配合收入節奏。投資標的持續下跌時，分批買進仍可能虧損。"
+      ]
+    }
+  ],
+  "diagram": {
+    "title": "圖解／固定金額分批投入",
+    "steps": [
+      "訂下每次投入金額",
+      "依約定時間進場",
+      "記錄取得單位與交易費用"
+    ]
+  },
+  "example": {
+    "title": "範例／兩次各投入 NT$3,000",
+    "body": "假想第一次單價 NT$30，買到 100 單位。第二次單價 NT$20，買到 150 單位。忽略費用時，平均成本為 NT$6,000 ÷ 250＝NT$24。若之後價格跌到 NT$18，部位仍會虧損。"
+  },
+  "misconceptions": [
+    {
+      "claim": "平均成本較低就保證最終獲利？",
+      "explanation": "盈虧還取決於賣出時的價格、配息與成本。分批只改變買進時點和成本分布。"
+    }
+  ],
+  "sources": [
+    {
+      "label": "SEC Investor.gov｜定期定額",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/dollar-cost-averaging",
+      "scope": "固定金額定期投入的定義"
+    },
+    {
+      "label": "臺灣證券交易所｜ETF 投資問答",
+      "url": "https://investoredu.twse.com.tw/pages/TWSE_InvestmentQA.aspx?ID=11",
+      "scope": "ETF 的性質、交易與基本機制"
+    }
+  ],
+  "lastVerified": "2026-11-17"
+}

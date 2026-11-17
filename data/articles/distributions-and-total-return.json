@@ -1,0 +1,57 @@
+{
+  "id": "etf-basics-002",
+  "slug": "distributions-and-total-return",
+  "takeaways": [
+    "ETF 配息是基金對持有人的現金分配，金額與時點依公告。",
+    "總報酬同時考慮價值變化與分配。",
+    "比較報酬時確認期間、使用價格或淨值，以及是否假設配息再投入。"
+  ],
+  "sections": [
+    {
+      "heading": "領到現金，基金價值也會變動",
+      "paragraphs": [
+        "基金分配資產給持有人後，其他條件不變時，每單位淨值會因分配而下降。市場成交價仍會同時受供需和標的波動影響。[1][2]",
+        "分配可能來自股利、利息、已實現資本利得或其他來源。臺灣 ETF 可查看收益分配組成公告，了解現金從哪裡來。[1]"
+      ]
+    },
+    {
+      "heading": "比較時先問報酬是哪個口徑",
+      "paragraphs": [
+        "價格報酬只看買賣之間的價格變化。簡化情境可把期間領到的現金加到期末價格，再與期初投入比較。有些含息總報酬資料會假設配息再投入，計算時點會影響結果。[2]",
+        "看到配息率先確認分子是單次或一整年的配息、分母採哪一天的價格或淨值。即使配息率較高，價格下跌仍可能使總報酬為負。"
+      ]
+    }
+  ],
+  "diagram": {
+    "title": "圖解／把現金和價值合起來看",
+    "steps": [
+      "記下期初投入",
+      "看期末資產價值",
+      "加回期間分配",
+      "確認是否已計再投入"
+    ]
+  },
+  "example": {
+    "title": "範例／領息也可能虧損",
+    "body": "假想買入價 NT$50，期末價 NT$46，期間領到 NT$2 現金且未再投入，忽略費稅。價格報酬為 −8%，計入分配後的簡化總報酬為 (46 + 2 − 50) ÷ 50＝−4%。"
+  },
+  "misconceptions": [
+    {
+      "claim": "月配息的總報酬一定優於半年配？",
+      "explanation": "配息頻率描述可能發放現金的時間安排。總報酬還取決於價格與分配金額，以及再投入方式。"
+    }
+  ],
+  "sources": [
+    {
+      "label": "臺灣證券交易所｜ETF 收益分配與配息組成",
+      "url": "https://www.twse.com.tw/downloads/zh/ETF/concept06.pdf",
+      "scope": "分配組成、除息及含息報酬的解讀"
+    },
+    {
+      "label": "SEC Investor.gov｜基金分配",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/fund-distributions-investor-bulletin",
+      "scope": "配息與基金價值、現金或再投入"
+    }
+  ],
+  "lastVerified": "2026-11-17"
+}

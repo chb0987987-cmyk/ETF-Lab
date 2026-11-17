@@ -1,0 +1,61 @@
+{
+  "id": "etf-types-001",
+  "slug": "etf-types",
+  "takeaways": [
+    "先區分基金持有的是股票還是債券，再查看投資規則。",
+    "市值型與高股息 ETF 都可能持有同一檔股票，但選股與權重不同。",
+    "債券 ETF 仍有利率、信用、流動性或匯率風險。"
+  ],
+  "sections": [
+    {
+      "heading": "兩種挑選股票的邏輯",
+      "paragraphs": [
+        "市值型指數通常讓價值規模較大的公司取得較高權重，實際方式還可能考量流通在外可供投資的比重與權重上限。少數大型股票可能占去很大一部分。",
+        "高股息 ETF 的指數可能用股利率、股利穩定度或獲利能力等條件挑股，再採另一套加權方法。策略會影響產業分布，配息水準也可能變化。[1]"
+      ]
+    },
+    {
+      "heading": "債券 ETF 看的是哪類債券",
+      "paragraphs": [
+        "債券型 ETF 可能持有政府債或公司債，標的可依信用等級與到期區間區分。[1] 在其他條件相同時，市場利率上升往往壓低既有固定利率債券的價格，利率敏感度較高的組合可能波動更大。",
+        "持有海外債券的基金也可能承擔匯率波動。查閱公開說明書時可留意信用品質、利率敏感度及是否避險。"
+      ]
+    }
+  ],
+  "diagram": {
+    "title": "圖解／辨認 ETF 類型",
+    "steps": [
+      "確認底層資產",
+      "閱讀納入規則",
+      "檢查權重與集中度"
+    ]
+  },
+  "example": {
+    "title": "範例／同名市場，不同組合",
+    "body": "假想兩檔 ETF 都投資臺股。甲依市值配置，乙只納入符合股利與獲利條件的股票。同一家公司即使出現在兩檔基金裡，影響也可能因權重而異。"
+  },
+  "misconceptions": [
+    {
+      "claim": "債券 ETF 等於定存？",
+      "explanation": "債券 ETF 的基金淨值和交易價格會變動，也可能受到發債機構信用變化影響。"
+    }
+  ],
+  "sources": [
+    {
+      "label": "臺灣證券交易所｜ETF 簡介",
+      "url": "https://accessibility.twse.com.tw/zh/products/securities/etf/overview/introduction.html",
+      "scope": "ETF 的分類與投資標的"
+    },
+    {
+      "label": "臺灣證券交易所｜富時臺灣證券交易所臺灣指數系列規則",
+      "url": "https://www.twse.com.tw/downloads/zh/products/indices/IndexS32.pdf",
+      "scope": "市值、成分資格與指數加權規則"
+    },
+    {
+      "label": "元大投信｜00940 指數介紹",
+      "url": "https://www.yuantaetfs.com/product/detail/00940/Basic_information",
+      "scope": "高股息策略的選股與風險案例"
+    }
+  ],
+  "lastVerified": "2026-11-17"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "etf-risk-002",
+  "slug": "fees-and-tracking",
+  "takeaways": [
+    "經理費及保管費只是基金內扣費用的一部分。",
+    "交易時還可能遇到手續費、稅與買賣價差。",
+    "追蹤差距量化落差，追蹤誤差衡量落差的波動程度。"
+  ],
+  "sections": [
+    {
+      "heading": "費用從哪裡扣？",
+      "paragraphs": [
+        "基金運作的支出一般會從基金資產扣除並反映在淨值。查閱公開說明書和定期揭露，可分開看契約費率與實際費用率。[1]",
+        "在交易所買進或賣出時，還要留意券商手續費、適用稅負和買賣報價的差距。比較基金時可把持有成本和每次交易成本分開考慮。"
+      ]
+    },
+    {
+      "heading": "同樣追蹤一個指數，結果為何會不同？",
+      "paragraphs": [
+        "用相同期間、幣別和含息口徑，基金報酬減去指數報酬可得追蹤差距。若基金費用、換股時機或現金部位不同，差距也會改變。[2]",
+        "追蹤誤差通常由一連串期間差距的標準差衡量，有些資料還會年化。比較之前確認頻率和定義。"
+      ]
+    }
+  ],
+  "diagram": {
+    "title": "圖解／比較成本的順序",
+    "steps": [
+      "看基金費用",
+      "估自己的交易成本",
+      "用同口徑比追蹤差距"
+    ]
+  },
+  "example": {
+    "title": "範例／用百分點表示落差",
+    "body": "假想某年指數含息報酬 +7.0%，ETF 同口徑報酬 +6.7%，則該年追蹤差距為 −0.3 個百分點。單一年份的差距不足以計算追蹤誤差。"
+  },
+  "misconceptions": [
+    {
+      "claim": "經理費最低的 ETF 就一定追得最準？",
+      "explanation": "指數複製方法、交易和現金部位也影響追蹤結果。費率是比較的其中一項。"
+    }
+  ],
+  "sources": [
+    {
+      "label": "SEC Investor.gov｜基金與 ETF 費用",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/mutual-fund-and-etf-fees-and-expenses-investor-bulletin",
+      "scope": "基金經常性費用、交易成本與報酬"
+    },
+    {
+      "label": "臺灣證券交易所｜解構股票 ETF 的投資風險",
+      "url": "https://www.twse.com.tw/downloads/zh/ETF/topic02.pdf",
+      "scope": "集中度、市場、流動性、折溢價與追蹤風險"
+    },
+    {
+      "label": "元大投信｜亞洲時區 ETF 追蹤差距",
+      "url": "https://www.yuantaetfs.com/tradeInfo/trackingDifference/Asia_ETF",
+      "scope": "追蹤差距定義及揭露例子"
+    }
+  ],
+  "lastVerified": "2026-11-17"
+}

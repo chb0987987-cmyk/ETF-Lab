@@ -1,0 +1,100 @@
+{
+  "etfs": [
+    {
+      "ticker": "0050",
+      "name": "元大台灣50",
+      "issuer": "元大投信",
+      "type": "臺股市值型",
+      "index": "臺灣50指數",
+      "approach": "納入符合條件的臺灣上市大型企業，選出 50 檔，再按指數規則加權。",
+      "distribution": "有收益分配。證交所所列近年紀錄約半年一次，實際金額及時程依公告。",
+      "fees": {
+        "management": "依新臺幣淨資產各級距分段計費：至 1,000 億元 0.15%、逾 1,000 億至 5,000 億元 0.10%、逾 5,000 億至 1 兆元 0.08%、逾 1 兆元 0.05%。",
+        "custody": "依新臺幣淨資產分段計費：1 兆元（含）以下部分 0.03%，逾 1 兆元部分 0.025%。",
+        "effectiveDate": null
+      },
+      "concentration": "大型權值股可能主導表現。與其他臺灣50指數 ETF 的持股曝險高度重疊。",
+      "risks": [
+        "臺股市場與大型權值股集中風險。",
+        "基金表現可能偏離指數，交易亦有折溢價。"
+      ],
+      "sources": [
+        {
+          "label": "元大投信｜0050 基金資料",
+          "url": "https://www.yuantafunds.com/myfund/information/1066?tab=4",
+          "scope": "基金指數、成分規則及分級費用"
+        },
+        {
+          "label": "臺灣證券交易所｜0050",
+          "url": "https://wwwc.twse.com.tw/zh/ETFortune/etfInfo/0050",
+          "scope": "代號、簡稱及歷史配息公告"
+        }
+      ],
+      "lastVerified": "2026-11-17"
+    },
+    {
+      "ticker": "006208",
+      "name": "富邦台50",
+      "issuer": "富邦投信",
+      "type": "臺股市值型",
+      "index": "臺灣50指數",
+      "approach": "納入符合條件的臺灣上市大型企業，選出 50 檔，再按指數規則加權。",
+      "distribution": "投信列為半年配。分配金額與時程依公告，來源可能包含收益平準金。",
+      "fees": {
+        "management": "依新臺幣淨資產各級距分段計費：至 1,000 億元 0.15%、逾 1,000 億至 5,000 億元 0.10%、逾 5,000 億至 1 兆元 0.08%、逾 1 兆元 0.05%。",
+        "custody": "依新臺幣淨資產分段計費：1 兆元（含）以下部分 0.03%，逾 1 兆元部分 0.025%。",
+        "effectiveDate": "2025-06-26"
+      },
+      "concentration": "大型權值股可能主導表現。與 0050 同指數，可比較持有與交易成本。",
+      "risks": [
+        "臺股市場與大型權值股集中風險。",
+        "成分調整、費用與交易價差可能影響實際報酬。"
+      ],
+      "sources": [
+        {
+          "label": "富邦投信｜006208 基金專區",
+          "url": "https://www.fubon.com/asset-management/ph/Taiwan50_006208/index.html",
+          "scope": "指數定位、經理費、保管費及生效日"
+        },
+        {
+          "label": "富邦投信｜2026 年配息專區",
+          "url": "https://www.fubon.com/asset-management/fund/dividends/by_yield?Fd=0&contact=1&toDate=2026",
+          "scope": "以代號 006208 核對收益分配頻率"
+        }
+      ],
+      "lastVerified": "2026-11-17"
+    },
+    {
+      "ticker": "00940",
+      "name": "元大台灣價值高息",
+      "issuer": "元大投信",
+      "type": "臺股價值高股息型",
+      "index": "臺灣指數公司特選臺灣價值高息指數",
+      "approach": "以現金流、股息及估值等條件選出 50 檔，再依指數方法配置權重。",
+      "distribution": "採月度分配安排，實際金額及是否分配依公告。來源可能包含收益平準金。",
+      "fees": {
+        "management": "0.30%。",
+        "custody": "0.03%。",
+        "effectiveDate": null
+      },
+      "concentration": "選股因子可能使部分產業或特定類型的公司比重偏高，權重隨調整改變。",
+      "risks": [
+        "價值或高股息因子可能在某些市場階段落後市值型指數。",
+        "臺股市場、產業集中與配息波動風險。"
+      ],
+      "sources": [
+        {
+          "label": "元大投信｜00940 基本資訊",
+          "url": "https://www.yuantaetfs.com/product/detail/00940/Basic_information",
+          "scope": "標的指數、篩選方法、費用與策略風險"
+        },
+        {
+          "label": "臺灣證券交易所｜00940",
+          "url": "https://www.twse.com.tw/zh/ETFortune/etfInfo/00940",
+          "scope": "代號、簡稱及歷史配息公告"
+        }
+      ],
+      "lastVerified": "2026-11-17"
+    }
+  ]
+}
